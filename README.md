@@ -85,7 +85,7 @@ By default, the `bootstrap.sh` script creates a username and password for your l
 
 - Open the Apache Airlfow UI: <http://localhost:8080/>.
 
-![airflow-home.png](../../Downloads/Twitter-Analysis-Airflow-ETL-main/Twitter-Analysis-Airflow-ETL-main/screenshots/airflow-home.png)
+![airflow-home.png](screenshots/airflow-home.png)
 
 ### Step four: Add DAGs and supporting files
 
@@ -99,11 +99,11 @@ The following section describes where to add your DAG code and supporting files.
 
 Note: Make sure to copy the `data` folder as well to the DAG folder in case your twitter scraper is not working. It will by default take it from the csv file.
 
-![file-structure.png](../../Downloads/Twitter-Analysis-Airflow-ETL-main/Twitter-Analysis-Airflow-ETL-main/screenshots/file-structure.png)
+![file-structure.png](screenshots/file-structure.png)
 
 ### Step five: Run the `twitter_dag`
 
-![twitter-dag.png](../../Downloads/Twitter-Analysis-Airflow-ETL-main/Twitter-Analysis-Airflow-ETL-main/screenshots/twitter-dag.png)
+![twitter-dag.png](screenshots/twitter-dag.png)
 
 ## Dataset Used 
 Dataset link : https://www.kaggle.com/code/goyaladi/twitter-data-analysis/input?select=twitter_dataset.csv
